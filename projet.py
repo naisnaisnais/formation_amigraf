@@ -25,7 +25,7 @@ plt.ylabel("Nombre de véhicules", color="#000066")
 plt.grid(color="beige", axis="y")
 plt.show()"""
 
-# Nombre de véhicules par marque
+# Nombre de véhicules par marque toto
 nb_par_marque = (df.groupby("brand").size().sort_values(ascending=False).head(15))
 print(nb_par_marque)
 """plt.figure(facecolor="#ccccff")
